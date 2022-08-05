@@ -1,0 +1,65 @@
+$color-main : #121212;
+$color-secondry : #222327;
+$color-gray : #262626;
+$color-white : #fff;
+$color-primary: crimson;
+$color-primasry: #b8b8b8;
+
+
+$colorday-main : #FFFFFF;
+$colorday-secondry : #F1F1F1;
+$colorday-fontcolor : #000000;
+
+
+
+
+$font-shabnam : 'Shabnam' , serif;
+$font-sahel : Sahel ;
+$font-title : Moderna;
+$font-sub : Mukta;
+$font-movie : ArchivoBlack;
+
+@font-face{
+    font-family: ArchivoBlack;
+    src : url('../Adds/fonts/ArchivoBlack-Regular.ttf');
+}
+@font-face{
+    font-family: Sahel ;
+    src: url('../Adds/fonts/Sahel.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: Moderna;
+    src: url('../Adds/fonts/MODERNA_.TTF');
+}
+
+
+@font-face{
+    font-family: Mukta;
+    src: url('../Adds/fonts/Mukta-Medium.ttf');
+}
+@mixin centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%fullSpace{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    transition: background-color .5s;
+}
+
+body {
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
